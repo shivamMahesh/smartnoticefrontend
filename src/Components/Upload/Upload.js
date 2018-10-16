@@ -69,7 +69,7 @@ const { description,name, selectedFile,startd,startt,endd,endt,preference} = thi
         axios.post('https://afternoon-fortress-98106.herokuapp.com/upload', formData)
           .then(res=>{
             window.alert('confirm upload');
-            fetch('http://localhost:3000/utdb')
+            fetch('https://afternoon-fortress-98106.herokuapp.com/utdb')
             .then(res=>
             {
         window.alert(`${name} uploaded successfully`); 
