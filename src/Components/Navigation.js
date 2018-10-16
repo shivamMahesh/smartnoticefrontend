@@ -29,7 +29,7 @@ onRouteChange=()=>
         return(<nav className="navbar navbar-default">
   <div className="container-fluid ">
     <div className="navbar-header">
-      <a className="navbar-brand black" href="https://smart-notice-board-rvce.herokuapp.com/">SMART NOTICE BOARD</a>
+      <a className="navbar-brand black" href="https://smart-notice-board.herokuapp.com/">SMART NOTICE BOARD</a>
     </div>
     <ul className="nav navbar-nav black">
       <li className="active"><Link to='/'>Home</Link></li>
