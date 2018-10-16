@@ -24,13 +24,12 @@ class  Upload extends React.Component
 }
 onTimeChange1=(time)=>
 {
-  console.log(time);
     this.setState({startt:time});
 }
 
 onTimeChange2=(time)=>
 {
-  console.log(time);
+ 
     this.setState({endt:time});
 }
 

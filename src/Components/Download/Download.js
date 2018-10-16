@@ -14,7 +14,7 @@ constructor()
 
 onButtonSubmit=(event)=>
 {
-   fetch('http://localhost:3000/download',
+   fetch('https://afternoon-fortress-98106.herokuapp.com/download',
   {
   method:'post',
   headers:{'Content-Type':'application/json'},
