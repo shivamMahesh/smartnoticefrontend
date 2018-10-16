@@ -139,9 +139,9 @@ render()
     }
 
   return(
-	<div >
+	<div className="App">
   <Navigation  isSignedIn={true} onRouteChange1='/Home' onRouteChange={this.props.onRouteChange} />
-	<p className='f3 App'>
+	<p className='f3'>
 	{'UPLOAD IMAGES'}
 	</p>
 	<div >

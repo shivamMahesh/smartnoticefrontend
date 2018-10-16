@@ -46,7 +46,7 @@ emailChange=(email)=>
 
 onButtonSubmit = (section)=>
 { 
-      fetch('http://localhost:3000/')
+      fetch('https://afternoon-fortress-98106.herokuapp.com/')
           .then(res=>res.json()); 
     this.setState({section:section});
 }
