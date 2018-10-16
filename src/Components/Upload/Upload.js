@@ -141,10 +141,10 @@ render()
   return(
 	<div >
   <Navigation  isSignedIn={true} onRouteChange1='/Home' onRouteChange={this.props.onRouteChange} />
-	<p className='f3'>
+	<p className='f3 App'>
 	{'UPLOAD IMAGES'}
 	</p>
-	<div className="App">
+	<div >
   <p >Start Date</p>
   <input className='f4 pa2  center' type='date'  onChange={this.onStartDateChange}/>
      <p >Start Time</p>
