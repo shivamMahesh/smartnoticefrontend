@@ -45,7 +45,7 @@ onRouteChange=()=>
 		 <nav className="navbar navbar-default">
   <div className="container-fluid">
     <div className="navbar-header">
-      <a className="navbar-brand black" href="https://smart-notice-board-rvce.herokuapp.com/">SMART NOTICE BOARD</a>
+      <a className="navbar-brand black" href="https://smart-notice-board.herokuapp.com/">SMART NOTICE BOARD</a>
     </div>
     <ul className="nav navbar-nav ">
     <li>  <Link to={this.props.onRouteChange1}>Back</Link></li>
